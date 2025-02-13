@@ -1,0 +1,37 @@
+{
+  "toast": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "showtoast",
+        "scriptName": "ShowToast",
+        "highlight": true,
+        "params": [
+          {
+            "id": "message",
+            "type": "string",
+            "initialValue": "+'Toast message'+"
+          },
+          {
+            "id": "duration",
+            "type": "combo",
+            "items": [
+              "short (2 seconds)",
+              "long (5 seconds)"
+            ]
+          },
+          {
+            "id": "position",
+            "type": "combo",
+            "items": [
+              "top",
+              "center",
+              "bottom"
+            ]
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Cordova Toast Plugin",
+  "text": {
+    "plugins": {
+      "mohammadhadi_cordovatoast": {
+        "name": "Cordova Toast",
+        "description": "show a native toast (a little text popup).",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {},
+        "aceCategories": {
+          "toast": "toast"
+        },
+        "conditions": {},
+        "actions": {
+          "showtoast": {
+            "list-name": "Show toast",
+            "display-text": "Show toast {0} for {1} at the {2}",
+            "description": "Description for my action!",
+            "params": {
+              "message": {
+                "name": "Message",
+                "desc": "Enter a message."
+              },
+              "duration": {
+                "name": "Duration",
+                "desc": "Select duration",
+                "items": {
+                  "short (2 seconds)": "short (2 seconds)",
+                  "long (5 seconds)": "long (5 seconds)"
+                }
+              },
+              "position": {
+                "name": "Position",
+                "desc": "Select position",
+                "items": {
+                  "top": "top",
+                  "center": "center",
+                  "bottom": "bottom"
+                }
+              }
+            }
+          }
+        },
+        "expressions": {}
+      }
+    }
+  }
+}
